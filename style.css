@@ -1,0 +1,135 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 90;
+  line-height: 1.6;
+  background-color: grey;
+  background-image: url(./img/bg.jpg);
+}
+
+body>div {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2);
+}
+
+a {
+  font-weight: bold;
+  color: #498978;
+}
+
+a:hover {
+  color: #D14720;
+}
+
+h1, h2 {
+  margin-top: 1.8em;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #1fabe5;
+}
+
+h2 {
+  color: #1fabe5;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+h3 {
+  color: #1fabe5;
+}
+
+ul {
+  background-color: #white;
+  color: black;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  width: 40%;
+}
+
+#logo {
+  /*text-align: left;*/
+  color: black;
+  margin: 100px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+  font-size: 6em;
+  text-transform: uppercase;
+  background-color: #ff8523;
+}
+
+#site_header {
+  background-color: #ff8523;
+}
+
+.main_navigation {
+  padding: 12px 12px 12px 12px;
+  border: 1px #D1D67C;
+}
+
+#_pagecontent {
+  padding: 10px;
+}
+
+table {
+  border: 0.5px solid;
+  border-collapse: collapse;
+  font-size: 8px bold;
+}
+tbody td {
+  border: 1px solid #1fabe5;
+}
+
+thead td {
+  background-color: #1fabe5;
+  color: white;
+  border: 1px solid #046c97;
+  background-color: #1fab5;
+  color: white;
+  padding: 5px;
+}
+td img{
+  width: 40px;
+  height:auto;
+}
+.main_navigation a {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: #ff8523;
+}
+.name{
+  background-color: #ff8523;
+  padding: 5px;
+  color: white;
+  border-left: 5px;
+}
+#submit_button{
+  background-color: #1fabe5;
+}
+.main_navigation a:hover {
+  color: white;
+  background-color: #ff8523;
+}
