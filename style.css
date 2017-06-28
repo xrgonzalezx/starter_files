@@ -120,11 +120,20 @@ td img{
   font-weight: bold;
   background-color: #ff8523;
 }
-.name{
-  background-color: #ff8523;
-  padding: 5px;
+form {
+  background-color: #dddddd ;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.name {
+  background-color: #ff8523 ;
+  padding: 8px;
   color: white;
-  border-left: 5px;
+  border-radius: 5px;
+}
+
 }
 #submit_button{
   background-color: #1fabe5;
